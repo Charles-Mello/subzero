@@ -4,7 +4,8 @@ body {
     --braco: #ffffff;
     --preto: #000000;
     --cinza: #808080; 
-    
+    min-height: 3000px;
+    background: var(--preto);
   }
 
   input[type=checkbox] {
@@ -20,10 +21,93 @@ body {
     outline: none;
   }  
 
- .btn{
-    align-items: center;
-    justify-content: center;
-    background-position: 
+ .btn-group{
+   
+    
  }
 
+ .image-max-height{
+    max-height: 20vw;
+ }
 
+ .card {
+    width: 300px;
+    border: 1px solid #fffbfb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #f9f9f9;
+}
+
+.card-subtitle {
+    font-size: 1em;
+    color: hsl(0, 100%, 99%);
+    margin: 8px 0 16px;
+}
+.valor {
+    font-size: 1em;
+    color: hsl(0, 100%, 99%);
+    margin: 8px 0 16px;
+}
+.card-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.btn1 {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: ;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.navbar-icon {
+    color: rgb(10, 10, 10);
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 15px; /* Espaçamento entre o ícone e o primeiro link */
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar-link:hover, .navbar-icon:hover {
+    color: #ddd; /* Cor ao passar o mouse */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #007BFF; /* Cor de fundo da navbar */
+    padding: 10px;
+}
