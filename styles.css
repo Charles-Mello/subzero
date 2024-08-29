@@ -6,6 +6,7 @@ body {
     --cinza: #808080; 
     min-height: 3000px;
     background: var(--preto);
+    
   }
 
   input[type=checkbox] {
@@ -83,11 +84,12 @@ body {
     color: white;
     cursor: pointer;
     font-size: 0.9em;
-    text-decoration: ;
+    text-decoration: none;
+    border: 2px solid #cccccc;
     
 }
 
-.btn:hover {
+.btn1:hover {
     background-color: #0056b3;
 }
 
@@ -111,3 +113,58 @@ body {
     background-color: #007BFF; /* Cor de fundo da navbar */
     padding: 10px;
 }
+ /* Estilo para centralizar a barra de pesquisa */
+ .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Estilo para o campo de input */
+.search-container input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão de pesquisa */
+.search-container button {
+    padding: 10px 20px;
+    border: 2px solid #cccccc;
+    border-radius: 0 25px 25px 0;
+    background-color: #333333;
+    color: #ffffff
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* Efeito de hover para o botão */
+.search-container button:hover {
+    background-color: #0848f8;
+    
+}
+.dropdown-menu{
+    background-color: var(--cinza);
+}
+.dropdown-item:hover{
+    background-color: #0056b3;
+}
+
+.dropdown-item{
+    color: var(--braco);
+    border: 1px solid var(--preto);
+   
+}
+.img-drop{
+    width: 43px;
+    margin-right: 5px ;
+    padding: 2px;
+    align-items: center ;
+
+}
+
+ 
+
